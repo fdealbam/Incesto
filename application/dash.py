@@ -624,7 +624,7 @@ body = html.Div([
                                    
                         html.P(
                           "Los 5 municipios con más incesto fueron: Mexicali (5), Tijuana (3), Ensenada (2), Tecate (0) y"
-                            "Playas de Rosarito (0), ",
+                            "Playas de Rosarito (0).",
                            style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
                ]), style={"background-color":"white",
                          "box-shadow": "10px 20px 30px black",
