@@ -716,8 +716,8 @@ body = html.Div([
     
      dbc.Row(
            [
-               dbc.Col(dbc.Button(([html.P("Hidalgo", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/Incesto/blob/main/application/static/hdg.jpeg?raw=true",
+               dbc.Col(dbc.Button(([html.P(edoname1, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/Incesto/blob/main/application/static/Mapa Hidalgo.png?raw=true",
                   style={'size': 2,}),
                           html.P(bulletedo1,
                      style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
@@ -728,8 +728,8 @@ body = html.Div([
                          
                          }, disabled=True)),
                
-               dbc.Col(dbc.Button(([html.P("Jalisco", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/Incesto/blob/main/application/static/jal.jpeg?raw=true",
+               dbc.Col(dbc.Button(([html.P(edoname2, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/Incesto/blob/main/application/static/Mapa Jalisco.png?raw=true",
                                     style={'size': 2,}),
                        html.P(bulletedo2,
                               style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
@@ -748,8 +748,8 @@ body = html.Div([
     
                 dbc.Row([
                                
-               dbc.Col(dbc.Button(([html.P("Guanajuato", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/Incesto/blob/main/application/static/gto.jpeg?raw=true"),
+               dbc.Col(dbc.Button(([html.P(edoname3, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/Incesto/blob/main/application/static/Mapa Guanajuato.png?raw=true"),
                      html.Br(),
                                      html.Br(),
                                      html.Br(),
@@ -762,8 +762,8 @@ body = html.Div([
                         'width': '550px',
                         
                          }, disabled=True)),
-          dbc.Col(dbc.Button(([html.P("Baja California", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/Incesto/blob/main/application/static/bc.jpeg?raw=true"),
+          dbc.Col(dbc.Button(([html.P(edoname4, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/Incesto/blob/main/application/static/Mapa Baja California.png?raw=true"),
     
                        html.P(bulletedo4,
                            style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
